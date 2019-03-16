@@ -6,7 +6,7 @@ print(totals,"total seconds")
 #2.2
 print("how many KMs")
 KMs = input()
-totalmi = (int(KMs)*1.61)
+totalmi = (float(KMs)*1.61)
 
 print("You ran",totalmi,"miles")
 #2.3
