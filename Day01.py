@@ -10,7 +10,7 @@ print(round(volume, 2))
 #1.2
 copies = float(input("Number of Books Are You Ordering: "))
 CPOB = round(((24.95 * .6) + 3) + ((24.96 * .6) + .75 * (copies - 1)),2)
-print("$",CPOB,"Cost Total")
+print("The Total Cost is ${:.2f}" .format(CPOB))
 
 #1.3
 start = (6*60+52)*60
@@ -23,6 +23,6 @@ print('Finish time was %d:%d' % (finish_hour,finish_minute))
 
 #1.4
 grade = ((89 / 82) - 1)
-print("Your Grade Went Up",round(grade, 2),"%")
-
+print("You grade went from 82 to 89:")
+print('Your grade went up {:.2f}%' .format(grade))
 
